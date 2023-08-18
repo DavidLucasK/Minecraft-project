@@ -1,0 +1,9 @@
+@import './variables.css';
+@import '/css/components/home/globals.css';
+
+/* Light theme */
+@import '/css/components/home/navbar.css';
+@import '/css/components/home/about.css';
+@import '/css/components/home/main.css';
+@import '/css/components/home/footer.css';
+

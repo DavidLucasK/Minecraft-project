@@ -1,0 +1,9 @@
+@import './variables.css';
+@import '/css/components/loja/globals.css';
+
+/* Light theme */
+@import '/css/components/loja/navbar.css';
+@import '/css/components/loja/about.css';
+@import '/css/components/loja/main.css';
+@import '/css/components/loja/footer.css';
+

@@ -1,0 +1,53 @@
+.about {
+    margin-top: 400px;
+}
+
+.about title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    /* color: rgb(172, 49, 0); */
+    color: white;
+    background: linear-gradient(90deg, #ff7b00, orange);
+    font-size: 28pt;
+    font-weight: 800;
+    text-decoration: underline;
+    text-underline-offset: 2rem;
+    border-radius: 400px 0 0 0;
+}
+
+.about .container {
+    display: grid;
+    align-items: center;
+    background: linear-gradient(90deg, #ff7b00, orange);
+    height: 100vh;
+    border-radius: 0 0 200px 0;
+}
+
+
+.about .container .container-historia {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 500px;
+    margin-left: 225px;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fill, 720px);
+}
+
+.about .container .container-historia .withicon img {
+    padding-left: 200px;
+}
+
+.about .container .container-historia p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 100px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, orange, #ffba3a);
+    width: 300px;
+    gap: 100px;
+    height: 300px;
+}

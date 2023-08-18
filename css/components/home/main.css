@@ -1,0 +1,47 @@
+main {
+    justify-content: center;
+    padding-bottom: 250px;
+    margin-top: 200px;
+}
+
+main title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 100px;
+    font-size: 28pt;
+    font-weight: 800;
+    text-decoration: underline;
+    text-underline-offset: 2rem;
+    background: linear-gradient(to left, #00a1a1, #00ffff);
+    color: white;
+    border-radius: 20% 0 0 0 / 120% 0 0 0;
+}
+
+main .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to left, #00a1a1, #00ffff);
+    height: 70vh;
+    border-radius: 0 0 200px 0;
+    padding-top: 50px;
+}
+
+main .container .textos {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .textos span {
+    font-size: 32pt;
+    font-weight: 500;
+    color: white;
+}
+
+main .container p {
+    color: black;
+    width: 100vh;
+    font-size: 15pt;
+}
