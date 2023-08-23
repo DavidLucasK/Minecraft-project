@@ -25,16 +25,20 @@ nav .navbar__content {
 nav .navbar__content .logolink{
     margin-left: 80px;
     width: 10%;
-    transition: 0.3s ease-in-out;
 }
 
 nav .navbar__content .logolink img{
     width: 100%;
 }
 
+nav .navbar__content .logo{
+  width: 100%;
+  max-width: 200px;
+  transition: 0.3s ease-in-out;
+}
 
 nav .navbar__content .logo:hover{
-  filter: invert();
+  transform: scale(1.05);
 }
 
 nav .navbar__content .navbar__links li {

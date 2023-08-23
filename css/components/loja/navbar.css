@@ -34,11 +34,11 @@ nav .navbar__content .logolink img{
 }
 
 nav .navbar__content .logo{
-  transition: 1s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 nav .navbar__content .logo:hover{
-  filter: invert();
+  transform: scale(1.09);
 }
 
 nav .navbar__content .navbar__links li {

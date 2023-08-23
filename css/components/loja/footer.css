@@ -24,15 +24,14 @@ footer .logo-container {
 }
 
 footer .logo{
-    max-width: 100px;
+    max-width: 150px;
     width: 100%;
     transition: 0.3s ease-in-out;
     margin-left: 40px; 
 }
 
 footer .logo:hover{
-  filter: invert();
-  rotate: 180deg;
+  transform: scale(1.08);
 }
 
 footer .options {
